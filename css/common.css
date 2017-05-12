@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+header {
+    background-color: #0c3d5d;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+input {
+    border-radius: 4px;
+}
+.project-name {
+    font-weight: 100;
+    text-indent: 10px;
+}
+.list {
+    width: 200px;
+    background-color: #1468a0;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #22bb5b;
+    vertical-align: top;
+    position: relative;
+    margin-right: 10px;
+}
+.list h1 {
+    font-size: 15px;
+    font-weight: 800;
+}
+.list input {
+    margin-bottom: 0;
+}
+.list.new-list {
+    background-color: #1779ba;
+}
+.list-inline {
+    display: inline-block;
+}
+.lists-container {
+    padding: 20px;
+    position: relative;
+}
+.remove {
+    width: 35px;
+    height: 35px;
+    background: url("../img/x.svg") ;
+}
+.remove-list {
+    position: absolute;
+    margin: 6px;
+    top: 0;
+    right: 0;
+    font-weight: 900;
+}
+.card {
+    padding: 20px;
+    background-color: #cacaca;
+    border-radius: 4px;
+    margin: 10px 0;
+    border: 2px solid #22bb5b;
+    position: relative;
+}
+.card:hover {
+    border: 2px solid #157539;
+    transition: 0.5s;
+}
